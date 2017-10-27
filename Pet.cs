@@ -8,10 +8,10 @@ namespace EnumerationLesson
 {
     public class Pet
     {
-         public string Name { get; set; }
-        public int Age { get; set; }
+        string Name { get; set; }
+        int Age { get; set; }
         //public string Type { get; set; }
-       public PetType Type { get; set; }
+        PetType Type { get; set; }
         private StringBuilder _sb;
         //public Pet(string Name, int Age, string Type)
         public Pet(string Name, int Age, PetType Type)
